@@ -64,11 +64,11 @@ run_analysis <- function()
   new_dataset <- cbind(Subject.ID = dataset$Subject.ID, Activity.Name = dataset$Activity.Name, dataset[, matches])
   
   ### 3. Uses descriptive activity names to name the activities in the data set
-  # This was accomplished in lines 30 and 52 of the function when we joined the tables such that
+  # This was accomplished in lines 29 and 51 of the function when we joined the tables such that
   # we have a mapping between the activity number and activity name.
   
   ### 4. Appropriately labels the data set with descriptive variable names.
-  # This was accomplied in lines 24 nd 46 of the function when we assigned new column names
+  # This was accomplied in lines 23 and 45 of the function when we assigned new column names
   # to the dataframes.
   
   ### 5. From the data set in step 4, creates a second, independent tidy data set with the 
