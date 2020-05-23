@@ -1,6 +1,6 @@
 ##### run_analysis()
 
-The run_analysis() function takes the data from the UCI HAR Dataset and transforms it in a clean format based on the requirements of the assignment. This document will explain the step by step workings of the run_analysis.R file which contains this function.
+The run_analysis() function takes the data from the UCI HAR Dataset and transforms it in a clean format and performs summary statistics based on the requirements of the assignment. This document will explain the step by step workings of the run_analysis.R file which contains this function.
 
 # Step 0:
 Create/Save the run_analysis.R file at the same folder in which you have your dataset.
