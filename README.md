@@ -23,12 +23,12 @@ The read.table() function gives standard names to the columns of the dataframe; 
 `names(activity_labels) <- c("Activity.ID", "Activity.Name")`
 
 # Step 2a:
-Now we will load and format our **train** dataset. First we will load the corresponding three *.txt* files and then we will change the column names:
+Now we will load and format our **train** dataset. First we will load the corresponding three *.txt* files and then we will change the column names:\
 `train_path <- "train/"`
-`subject_train <- read.table(paste(train_path, "subject_train.txt", sep = ""))`
+`subject_train <- read.table(paste(train_path, "subject_train.txt", sep = ""))`  
 `X_train <- read.table(paste(train_path, "X_train.txt", sep = ""))`
 `y_train <- read.table(paste(train_path, "y_train.txt", sep = ""))`
-The `train_path` variable may be changed according the your own location of the train folder with respect to the *run_analysis.R* file.
+The `train_path` variable may be changed according to your own location of the train folder with respect to the *run_analysis.R* file.
 After loading the files in their respective dataframes we can chnage their column names:
 `names(subject_train) <- "Subject.ID"`
 `names(X_train) <- features$Feature.Name`
