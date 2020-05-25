@@ -5,6 +5,9 @@ The dataset is part of an experimental work to determine human activity based on
 The experiment containes 30 individuals (subjects), with an age bracket 19-48 years, and each person carried a smartphone on the waist. Using the smartphone's embedded accelerometer and gyroscope measurements of 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz were taken. In total there were 561 measurements, with time and frequency domain variables, taken for each individual per activity performed. 
 The activities performed were 6: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
 
+The data were collected from the following website:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 ## Dataset description
 The dataset has the following relevant files:
 - 4 text files: *features_info.txt*, *features.txt*, *activity_labels.txt*, *README.txt*
